@@ -1,5 +1,5 @@
 {
-  "name": "canvas",
+  "name": "wg-canvas",
   "description": "Canvas graphics API backed by Cairo",
   "version": "2.6.1",
   "author": "TJ Holowaychuk <tj@learnboost.com>",
@@ -20,8 +20,8 @@
     "images",
     "pdf"
   ],
-  "homepage": "https://github.com/Automattic/node-canvas",
-  "repository": "git://github.com/Automattic/node-canvas.git",
+  "homepage": "https://github.com/webgears-3d/node-canvas.git",
+  "repository": "git@github.com:webgears-3d/node-canvas.git",
   "scripts": {
     "prebenchmark": "node-gyp build",
     "benchmark": "node benchmarks/run.js",
@@ -35,8 +35,7 @@
   "binary": {
     "module_name": "canvas",
     "module_path": "build/Release",
-    "host": "https://github.com/node-gfx/node-canvas-prebuilt/releases/download/",
-    "remote_path": "v{version}",
+    "host": "https://cib3.webgears.app/node-canvas",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{libc}-{arch}.tar.gz"
   },
   "files": [

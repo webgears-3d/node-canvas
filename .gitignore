@@ -11,6 +11,7 @@ out.svg
 .pomo
 node_modules
 package-lock.json
+.idea
 
 # Vim cruft
 *.swp
